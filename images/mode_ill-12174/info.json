@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 39,
+    "height" : 51
+  }, {
+    "width" : 78,
+    "height" : 102
+  }, {
+    "width" : 155,
+    "height" : 203
+  }, {
+    "width" : 310,
+    "height" : 406
+  }, {
+    "width" : 619,
+    "height" : 811
+  }, {
+    "width" : 1238,
+    "height" : 1622
+  } ],
+  "profile" : "level0",
+  "width" : 1238,
+  "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/mode_ill-12174",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 1622
+}
