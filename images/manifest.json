@@ -1,0 +1,67 @@
+{
+  "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in ncarboni/DigitalImageCourse24 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1238,
+    "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/mode_ill-12174/canvas/",
+    "label" : {
+      "none" : [ "mode_ill-12174" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/mode_ill-12174/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/mode_ill-12174/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 39,
+              "height" : 51
+            }, {
+              "width" : 78,
+              "height" : 102
+            }, {
+              "width" : 155,
+              "height" : 203
+            }, {
+              "width" : 310,
+              "height" : 406
+            }, {
+              "width" : 619,
+              "height" : 811
+            }, {
+              "width" : 1238,
+              "height" : 1622
+            } ],
+            "profile" : "level0",
+            "width" : 1238,
+            "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/mode_ill-12174",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 1622
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1238,
+          "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/mode_ill-12174/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 1622
+        },
+        "target" : "https://ncarboni.github.io/DigitalImageCourse24/images/mode_ill-12174/canvas/"
+      } ]
+    } ],
+    "height" : 1622
+  } ]
+}
