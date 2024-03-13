@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://ncarboni.github.io/DigitalImageCourse24/manifests/IIIF.json",
     "label" : "La Mode"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ncarboni.github.io/DigitalImageCourse24/manifests/George_Manifest.json",
+    "label" : "Saint George"
   } ]
 }
