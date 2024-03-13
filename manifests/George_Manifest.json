@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ncarboni.github.io/DigitalImageCourse24/manifests/George_Manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Saint George",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Fresco of Saint George, Asinou",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://578c1f80-1f23-4533-a5a7-be9ed9be4263",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://79a6174e-adea-452e-a223-a66ecfff33c1",
+      "@type" : "sc:Canvas",
+      "label" : "Saint George",
+      "height" : 3456,
+      "width" : 5184,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b880b268-cfc5-4031-8dfa-81e891bab98a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou",
+            "profile" : "level0"
+          },
+          "height" : 3456,
+          "width" : 5184
+        },
+        "on" : "http://79a6174e-adea-452e-a223-a66ecfff33c1"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
