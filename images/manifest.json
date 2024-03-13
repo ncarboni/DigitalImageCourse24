@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 5184,
+    "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou/canvas/",
+    "label" : {
+      "none" : [ "george_asinou" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 162,
+              "height" : 108
+            }, {
+              "width" : 324,
+              "height" : 216
+            }, {
+              "width" : 648,
+              "height" : 432
+            }, {
+              "width" : 1296,
+              "height" : 864
+            }, {
+              "width" : 2592,
+              "height" : 1728
+            }, {
+              "width" : 5184,
+              "height" : 3456
+            } ],
+            "profile" : "level0",
+            "width" : 5184,
+            "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3456
+          } ],
+          "format" : "image/jpeg",
+          "width" : 5184,
+          "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 3456
+        },
+        "target" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou/canvas/"
+      } ]
+    } ],
+    "height" : 3456
+  }, {
     "width" : 300,
     "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/boat199/canvas/",
     "label" : {
