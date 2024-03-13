@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 10,
+    "height" : 5
+  }, {
+    "width" : 19,
+    "height" : 10
+  }, {
+    "width" : 38,
+    "height" : 19
+  }, {
+    "width" : 75,
+    "height" : 38
+  }, {
+    "width" : 150,
+    "height" : 76
+  }, {
+    "width" : 300,
+    "height" : 152
+  } ],
+  "profile" : "level0",
+  "width" : 300,
+  "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/boat200",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 152
+}
