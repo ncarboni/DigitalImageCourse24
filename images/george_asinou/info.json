@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 162,
+    "height" : 108
+  }, {
+    "width" : 324,
+    "height" : 216
+  }, {
+    "width" : 648,
+    "height" : 432
+  }, {
+    "width" : 1296,
+    "height" : 864
+  }, {
+    "width" : 2592,
+    "height" : 1728
+  }, {
+    "width" : 5184,
+    "height" : 3456
+  } ],
+  "profile" : "level0",
+  "width" : 5184,
+  "id" : "https://ncarboni.github.io/DigitalImageCourse24/images/george_asinou",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3456
+}
